@@ -1,0 +1,25 @@
+{
+    "name": "redgda/Reko",
+    "description": "Reko",
+
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "redgda/fetcher",
+                "version": "dev-master",
+                "source": {
+                    "url": "git://github.com/redgda/fetcher.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+
+    "require" : {
+        "redgda/fetcher" : "dev-master"
+    }
+
+}
+
