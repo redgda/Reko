@@ -18,7 +18,8 @@
     ],
 
     "require" : {
-        "redgda/fetcher" : "dev-master"
+        "redgda/fetcher" : "dev-master",
+        "phpmailer/phpmailer" : "~5.2"
     }
 
 }
